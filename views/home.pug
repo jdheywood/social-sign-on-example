@@ -1,0 +1,31 @@
+doctype html
+html(lang='en')
+  head
+    include partials/head
+
+    // Custom styles for this template
+    link(href='/css/layout.css', rel='stylesheet')
+
+  body
+    include partials/navigation-static
+
+    // wrap in container to center content
+    .container.interaction
+
+      // start of content
+      .row.content
+        // can use as target to inject client spa, replacing the loading gif etc below...
+        .col-md-12.target
+          h2.access-heading
+            | Hello friend
+          h3.debug
+            | #{environmentName}
+          img(src='/img/loading.gif', class="loading")
+
+    script(src='/js/lib/jquery-3.0.0.min.js')
+    script(src='/js/lib/bootstrap.min.js')
+
+    include partials/footer
+
+    if environmentName === 'live'
+      include partials/analytics

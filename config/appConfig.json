@@ -1,0 +1,41 @@
+{
+  "directories": {
+    "appDir": "/app",
+    "dataDir": "/data",
+    "publicDir": "/public",
+    "privateDir": "/private"
+  },
+  "app": {
+    "name": "Social Sign On Example",
+    "rootPage": "app.js",
+    "dev": "_gen_dev",
+    "devPort": 3030,
+    "dist": "app/public/js/dist/",
+    "distPort": 3030,
+    "liveReloadPort": 1337,
+    "src": "app",
+    "srcPort": "3030",
+    "debugMode": {
+      "dev": true,
+      "staging": false,
+      "live": false
+    },
+    "emailsFromAddress": "feedback@goalgettingclub.com",
+    "newRegistrationAlertsAddress": "feedback@goalgettingclub.com",
+    "resetPasswordRoute": "/reset/",
+    "developmentEnvironmentUrl": "https://assessment-tool-dev.herokuapp.com/",
+    "stagingEnvironmentUrl": "https://assessment-tool-staging.herokuapp.com/",
+    "liveEnvironmentUrl": "https://assessment-tool-live.herokuapp.com/",
+    "customLiveEnvironmentUrl": "https://assessments.goalgettingclub.com/",
+    "defaultMeta": {
+      "title": "Social Sign On Example",
+      "description": "A simple implementation of social sign on for securing an Express application",
+      "keywords": "Social Sign On, Express, Node, Demonstration, Application, Example"
+    },
+    "defaultContent": {
+      "heading": "Social Sign On Example",
+      "subtitle": "Hello, how can I help you today?",
+      "navBack": "/"
+    }
+  }
+}

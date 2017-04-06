@@ -1,0 +1,9 @@
+footer.footer
+  .container
+    p.text-muted
+      | A little demo project by yours truly
+      if !!footerLinks
+        ul.footer-links
+          for link in footerLinks
+            li.text-center
+              a(href=link.url, target="_blank") #{link.text}
