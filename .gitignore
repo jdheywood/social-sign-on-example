@@ -7,7 +7,7 @@ coverage
 out
 
 # security
-#config/secretConfig.json
+config/secretConfig.json
 
 # logs
 npm-debug.log

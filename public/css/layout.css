@@ -4,7 +4,7 @@ body {
   padding-bottom: 40px;
   color: #ffffff;
   height: 100%;
-  background-color: #333e48;
+  background-color: #5E5768;
   overflow-y: scroll; /* has to be scroll, not auto */
 }
 
@@ -38,7 +38,7 @@ body {
 }
 
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-  background-color: #333e48;
+  background-color: #5E5768;
 }
 
 .navbar-inverse .navbar-brand {
@@ -47,8 +47,8 @@ body {
 
 .navbar-inverse {
   color: #fff;
-  background-color: #333e48; /*transparent;*/
-  border-color: #333e48; /*transparent;*/
+  background-color: #5E5768; /*transparent;*/
+  border-color: #5E5768; /*transparent;*/
   opacity: 0.9;
 }
 
@@ -61,14 +61,14 @@ body {
 .navbar-inverse .navbar-nav>.active>a:hover,
 .navbar-inverse .navbar-nav>.active>a:focus {
   color: #ffffff;
-  background-color: #333e48;
+  background-color: #5E5768;
 }
 
 .navbar-inverse .navbar-nav>.open>a,
 .navbar-inverse .navbar-nav>.open>a:hover,
 .navbar-inverse .navbar-nav>.open>a:focus {
   color: #ffffff;
-  background-color: #333e48;
+  background-color: #5E5768;
 }
 
 .navbar-inverse .navbar-toggle {
@@ -171,7 +171,7 @@ span.pep-title {
 
 .divider {
   margin: 5px 0; /* Space out the Bootstrap <hr> more */
-  border-color: #333e48; /*transparent;*/
+  border-color: #5E5768; /*transparent;*/
 }
 
 /* Access, forms etc
@@ -224,7 +224,7 @@ input.app-access {
 }
 
 input.app-access.disabled {
-  color: #333e48;
+  color: #5E5768;
 }
 
 textarea.app-access {
@@ -365,7 +365,7 @@ body {
   position: absolute;
   bottom: -5%;
   width: 100%;
-  background-color: #333e48;
+  background-color: #5E5768;
 }
 
 .footer.white {
@@ -387,7 +387,7 @@ ul.footer-links {
 }
 
 ul.footer-links li a {
-  color: #777;
+  color: #B2B2B2;
 }
 
 /* Admin pages
@@ -430,7 +430,7 @@ h3.assessment, h3.information {
 .row.content.assessments,
 .row.content.controls,
 .row.content.assessment-detail {
-  background-color: #333e48;
+  background-color: #5E5768;
 }
 .row.content.links {
   padding-bottom: 10px;
@@ -518,7 +518,7 @@ img.doughnut-right {
   height: 80px;
   display: block;
   border-bottom: 3px;
-  border-bottom-color: #333e48;
+  border-bottom-color: #5E5768;
   border-bottom-style: solid;
   text-align: left;
 }
@@ -604,7 +604,7 @@ img.doughnut-right {
 }
 
 .row.content.assessment-detail ul li span.value {
-  color: #333e48;
+  color: #5E5768;
   word-wrap: break-word;
   margin: 10px;
 }
@@ -614,13 +614,13 @@ img.doughnut-right {
 }
 
 .row.content.assessment-detail ul li.answers {
-  background-color: #333e48;
+  background-color: #5E5768;
 }
 
 .row.content.assessment-detail ul.answers {
   border-top-right-radius: 0;
   border-top-left-radius: 0;
-  border-bottom: #333e48;
+  border-bottom: #5E5768;
   border-bottom-style: solid;
   margin-bottom: 5px;
   padding-bottom: 5px;
@@ -695,7 +695,7 @@ span.debug {
 .row.content.debug li span {
   margin: 0 0 0 10px;
   font-size: 18px;
-  color: #333e48;
+  color: #5E5768;
 }
 
 
@@ -738,7 +738,7 @@ img.error {
 -------------------------------------------------------------------- */
 body.white {
   background-color: #ffffff;
-  color: #333e48;
+  color: #5E5768;
 }
 
 img.loading {
@@ -749,7 +749,7 @@ img.loading {
 }
 
 .navbar-static-top {
-  background-color: #333e48;
+  background-color: #5E5768;
   border-style: none;
   margin-bottom: 0px;
 }
@@ -820,7 +820,7 @@ p.question-description {
 ul.questions li {
   margin-bottom: 10px;
   border-radius: 5px;
-  color: #333e48;
+  color: #5E5768;
   border: 1px solid #ee5d1f;
   text-align: center;
 }
@@ -840,7 +840,7 @@ ul.list-group.col-md-12.questions {
 ul.results {
   display: block;
   padding-right: 0px;
-  color: #333e48;
+  color: #5E5768;
 }
 
 ul.results li {
@@ -975,4 +975,8 @@ a.cta.disabled:focus {
   color: #fff;
   background-color: #50bcbd;
   border-color: #50bcbd;
+}
+
+.text-muted {
+  color: #B2B2B2;
 }
